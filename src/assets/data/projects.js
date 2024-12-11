@@ -19,6 +19,7 @@ export const projectDetails = {
 		description: "A Django-based e-commerce application for orders management. Built with Django and Bootstrap for styling.",
 		imageUrl: "/assets/img/web-development.jpg",
 		technologies: ["Python", "Django", "Bootstrap", "HTML"],
+		homepage: "https://olgmits.pythonanywhere.com/orders/",
 		github: "https://github.com/olgamitsiuk/sbc-week8-django-ecommerce"
 	},
 	'sbc-week7-expense-tracker': {
@@ -63,6 +64,7 @@ export const projectDetails = {
 		description: "JavaScript calculator application built using Test-Driven Development methodology. Features comprehensive unit tests with Jest.",
 		imageUrl: "/assets/img/calculator.jpg",
 		technologies: ["JavaScript", "Jest", "TDD"],
+		homepage: "https://sbc-week5-calculator-with-tests.onrender.com/",
 		github: "https://github.com/olgamitsiuk/sbc-week5-calculator-with-tests"
 	},
 
@@ -79,6 +81,7 @@ export const projectDetails = {
 		title: "Bootstrap Portfolio",
 		description: "Responsive portfolio website showcasing modern Bootstrap 5 features. Implements custom styling, animations, and responsive design principles for optimal viewing across all devices.",
 		imageUrl: "/assets/img/bootstrap-portfolio.jpg",
+		homepage: "https://olgamitsiuk.github.io/sbc-week3-bootstrap/",
 		technologies: ["Bootstrap 5", "HTML5", "CSS3"],
 		github: "https://github.com/olgamitsiuk/sbc-week3-bootstrap"
 	},
@@ -88,6 +91,7 @@ export const projectDetails = {
 		description: "IoT-based greenhouse monitoring system for tracking environmental conditions. Features sensor data collection, automated control systems, and real-time monitoring dashboard.",
 		imageUrl: "/assets/img/greenhouse.jpg",
 		technologies: ["JavaScript", "HTML", "Data Analytics"],
+		homepage: "https://olgamitsiuk.github.io/smart-greenhouse/",
 		github: "https://github.com/olgamitsiuk/smart-greenhouse"
 	},
 

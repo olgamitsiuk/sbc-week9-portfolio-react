@@ -4,6 +4,7 @@ import CV from "../../assets/Olha_Mitsiuk_CV.pdf";
 import { motion } from "framer-motion";
 import { BackgroundBeamsWithCollision } from "../ui/background-beams-with-collision";
 import avatarImage from "../../assets/img/avatar.jpg";
+import { Link } from "react-router-dom";
 
 function Hero() {
 	const handleDownloadCV = () => {
@@ -77,13 +78,14 @@ function Hero() {
 									transition={{ type: "spring", stiffness: 300 }}
 									className="flex-1 sm:flex-initial"
 								>
-									<Button
-										size="lg"
-										href="#projects"
-										className="w-full bg-purple-700 hover:bg-purple-800 dark:bg-purple-600 dark:hover:bg-purple-700 transition-colors px-4 sm:px-6"
-									>
-										PROJECTS
-									</Button>
+									<Link to="/projects">
+										<Button
+											size="lg"
+											className="w-full bg-purple-700 hover:bg-purple-800 dark:bg-purple-600 dark:hover:bg-purple-700 transition-colors px-4 sm:px-6"
+										>
+											PROJECTS
+										</Button>
+									</Link>
 								</motion.div>
 								<motion.div
 									whileHover={{ y: -2 }}
